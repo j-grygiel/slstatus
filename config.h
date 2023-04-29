@@ -65,13 +65,13 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function		format				      argument */
-	{ netspeed_rx,  "^c#8ec07c^   %s",	  "eth1" },
-	{ netspeed_tx,	"  %s",	  "eth1" },
+	/* { netspeed_rx,  "^c#8ec07c^   %s",	  "eth1" }, */
+	/* { netspeed_tx,	"  %s",	  "eth1" }, */
 	{ cpu_perc,		"^c#fb4934^   %s%%",	  NULL },
 	{ temp,			" %s°C",	  "/sys/class/thermal/thermal_zone1/temp" },
 	{ ram_perc,		"^c#fe8019^   %s%%",   	  NULL },
 	{ ram_used,		" %s",          NULL },
-	{ run_command,  "^c#b8bb26^  %s",		"~/scripts/sb-volume" },
+	/* { run_command,  "^c#b8bb26^  %s",		"~/scripts/sb-volume" }, */
 	{ datetime,		"^c#83a598^   %s",       "%d/%m/%y" },
 	{ datetime,		"^c#d3869b^   %s ",       "%T" },
 };
