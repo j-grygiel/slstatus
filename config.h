@@ -67,6 +67,7 @@ static const struct arg args[] = {
 	/* function		format				      argument */
 	/* { netspeed_rx,  "^c#8ec07c^   %s",	  "eth1" }, */
 	/* { netspeed_tx,	"  %s",	  "eth1" }, */
+	{ run_command,  " %s", "python ~/.local/bin/memento-mori.py" },
 	{ cpu_perc,		"^c#fb4934^   %s%%",	  NULL },
 	{ temp,			" %s°C",	  "/sys/class/thermal/thermal_zone1/temp" },
 	{ ram_perc,		"^c#fe8019^   %s%%",   	  NULL },
